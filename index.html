@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="sunflower">
+    <h1 style="-webkit-text-stroke-color: blue; stroke-width: 10px;">Ginawa ko to kase wala bored lang ako</h1>
+    <h1>Ano lang  to unsaid Thoughts hehehe</h1>
+       <div class="container">
+    <img src="nailong.jpg" alt="nailong" style="margin-top: 10px;">
+</div>
+</body>
+<style>
+    button {
+        width: 220px;
+        height: 100px;
+        background-color: yellow;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 3);
+        cursor: pointer;
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+    button:active { 
+        margin-left: 90px;
+        box-shadow: none;
+    }
+    input {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .button2 {
+        margin-top: 40px;
+        margin-left: 80px;
+        font-size: 15px;
+        border-radius: 10px;
+        width: 80px;
+        height: 30px;
+    }
+    .button2:active {
+        margin-top: 40;
+        margin-left: 80px;
+    }
+    .button3 {
+        margin-top: 40px;
+        margin-left: 10px;
+        width: 80px;
+        height:30px;
+        border-radius: 10px;
+        font-size: 15px;
+
+    }
+    .button3:active {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .button4 {
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+    .button4:active {
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+</style>
+
+<body>
+
+        <button onclick="pop.showModal()" style="font-size: 29px; ;">HELLO! CLICK THIS</button>
+        
+        <dialog id="pop">
+            <h1 style="margin-top: 40px;">INTERESTED?</h1>
+            <button class="button3" onclick="pop.close()">NO</button>
+            <button class="button2" onclick="pop2.showModal()">YES</button>
+            
+            <dialog id="pop2">
+                <h1>ano lang to ka oayan wala to<br>want mo talaga basahin?</h1>
+                <a href="index2.html">
+                <button class="button4" onclick="button2.showModal()">sure na? click me</button>
+            </dialog>
+        </dialog>
+    </a></body>
+</html>
